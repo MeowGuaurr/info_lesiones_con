@@ -1,0 +1,279 @@
+1,1,"golpe de calor","no",7,100.0
+2,1,"golpe de calor","no",7,100.0
+4,1,"sobre uso","no",4,57.14
+5,1,"sobre uso","si",3,42.86
+6,1,"esfuerzo excesivo","no",6,85.71
+7,1,"esfuerzo excesivo","si",1,14.09
+8,1,"caida desde gran altura/aterrizaje torpe","no",7,100.0
+9,1,"saltando para lanzar o defender","no",7,100.0
+10,1,"tropiezo en el mismo nivel","no",7,100.0
+12,1,"colision con otro jugador/arbitro","no",7,100.0
+13,1,"golpeado por la bola o un objeto","no",7,100.0
+14,1,"golpeado por otro jugador","no",7,100.0
+15,1,"abarasion/raspon","no",7,100.0
+16,1,"ampolla","no",7,100.0
+17,1,"condicion medica no especificada","no",7,100.0
+18,1,"conmocion/contusion cerebral","no",7,100.0
+19,1,"contusion/hematomas","no",7,100.0
+20,1,"esguince/desgarro ligamento","no",7,100.0
+21,1,"fractura (confirmado o sospecha)","no",7,100.0
+22,1,"herida abierta/laceracion/corte","no",7,100.0
+23,1,"inflamacion","no",7,100.0
+24,1,"lesion por sobreuso musculo o tendon","no",6,85.71
+25,1,"lesion por sobreuso musculo o tendon","si",1,14.29
+26,1,"luxacion/subluxacion","no",7,100.0
+27,1,"perdida de conciencia","no",7,100.0
+28,1,"tiron/degarro muscular","no",7,100.0
+29,1,"trastorno respiratotio","no",7,100.0
+30,1,"ferula","no",7,100.0
+31,1,"infiltracion","no",7,100.0
+32,2,"golpe de calor","no",38,100.0
+34,2,"sobre uso","no",28,73.68
+35,2,"sobre uso","si",10,26.32
+36,2,"esfuerzo excesivo","no",34,89.47
+37,2,"esfuerzo excesivo","si",4,10.53
+38,2,"caida desde gran altura/aterrizaje torpe","no",36,94.74
+39,2,"caida desde gran altura/aterrizaje torpe","si",2,5.26
+40,2,"saltando para lanzar o defender","no",36,94.74
+41,2,"saltando para lanzar o defender","si",2,5.26
+42,2,"tropiezo en el mismo nivel","no",38,100.0
+43,2,"colision con objeto fijo","no",38,100.0
+44,2,"colision con otro jugador/arbitro","no",37,97.37
+45,2,"colision con otro jugador/arbitro","si",1,2.63
+46,2,"golpeado por la bola o un objeto","no",37,97.37
+47,2,"golpeado por la bola o un objeto","si",1,2.63
+48,2,"golpeado por otro jugador","no",34,89.47
+49,2,"golpeado por otro jugador","si",4,10.53
+54,2,"contusion/hematomas","no",34,89.47
+55,2,"contusion/hematomas","si",4,10.53
+56,2,"esguince/desgarro ligamento","no",35,92.11
+57,2,"esguince/desgarro ligamento","si",3,7.89
+58,2,"fractura (confirmado o sospecha)","no",38,100.0
+59,2,"herida abierta/laceracion/corte","no",38,100.0
+60,2,"inflamacion","no",35,92.11
+61,2,"inflamacion","si",3,7.89
+62,2,"lesion por sobreuso musculo o tendon","no",34,89.47
+63,2,"lesion por sobreuso musculo o tendon","si",4,10.53
+50,2,"abarasion/raspon","no",38,100.0
+51,2,"ampolla","no",38,100.0
+52,2,"condicion medica no especificada","no",0,100.0
+64,2,"luxacion/subluxacion","no",38,100.0
+53,2,"conmocion/contusion cerebral","no",38,100.0
+33,2,"resbalon/tropiezo","no",38,100.0
+67,4,"resbalon/tropiezo","si",9,5.39
+65,4,"golpe de calor","no",167,100.0
+68,4,"sobre uso","no",117,70.06
+69,4,"sobre uso","si",50,29.94
+70,4,"esfuerzo excesivo","no",145,86.83
+71,4,"esfuerzo excesivo","si",22,13.17
+72,4,"caida desde gran altura/aterrizaje torpe","no",165,98.8
+74,4,"saltando para lanzar o defender","no",158,94.61
+75,4,"saltando para lanzar o defender","si",9,5.39
+76,4,"tropiezo en el mismo nivel","no",162,97.01
+77,4,"tropiezo en el mismo nivel","si",5,2.99
+78,4,"colision con objeto fijo","no",165,98.8
+79,4,"colision con objeto fijo","si",2,1.2
+80,4,"colision con otro jugador/arbitro","no",164,98.2
+81,4,"colision con otro jugador/arbitro","si",3,1.8
+82,4,"golpeado por la bola o un objeto","no",160,95.81
+83,4,"golpeado por la bola o un objeto","si",7,4.19
+84,4,"golpeado por otro jugador","no",144,86.23
+85,4,"golpeado por otro jugador","si",23,13.77
+86,4,"abarasion/raspon","no",167,100.0
+87,4,"ampolla","no",167,100.0
+88,4,"condicion medica no especificada","no",166,99.4
+89,4,"condicion medica no especificada","si",1,0.6
+90,4,"conmocion/constusion cerebral","no",167,100.0
+91,4,"contusion/hematomas","no",138,82.63
+92,4,"contusion/hematomas","si",29,17.37
+93,4,"esguince/desgarro ligamento","no",146,87.43
+94,4,"esguince/desgarro ligamento","si",21,12.57
+95,4,"fractura (confirmado o sospecha)","no",166,99.4
+96,4,"fractura (confirmado o sospecha)","si",1,0.6
+97,4,"herida abierta/laceracion/corte","no",166,99.4
+98,4,"inflamacion","no",160,95.81
+99,4,"inflamacion","si",7,4.19
+101,4,"lesion por sobreuso musculo o tendon","si",29,17.37
+102,4,"luxacion/subluxacion","no",167,100.0
+66,4,"resbalon/tropiezo","no",158,94.61
+11,1,"colision con objeto fijo","no",7,100.0
+3,1,"resbalon/tropiezo","no",7,100.0
+113,5,"sobre uso","no",10,90.91
+73,4,"caida desde gran altura/aterrizaje torpe","si",2,1.2
+100,4,"lesion por sobreuso musculo o tendon","no",138,82.63
+103,4,"perdida de conciencia","no",167,100.0
+167,6,"golpeado por otro jugador","no",15,83.33
+104,4,"tiron/degarro muscular","no",154,92.22
+105,4,"tiron/degarro muscular","si",13,7.78
+106,4,"trastorno cardiaco","no",167,100.0
+107,4,"trastorno respiratotio","no",167,100.0
+108,4,"ferula","no",167,100.0
+109,4,"infiltracion","no",167,100.0
+110,4,"herida abierta/laceracion/corte","si",1,0.6
+111,5,"golpe de calor","no",11,100.0
+112,5,"resbalon/tropiezo","no",11,100.0
+114,5,"sobre uso","si",1,9.09
+115,5,"esfuerzo excesivo","no",9,81.82
+116,5,"esfuerzo excesivo","si",2,13.17
+117,5,"caida desde gran altura/aterrizaje torpe","no",10,90.91
+118,5,"caida desde gran altura/aterrizaje torpe","si",1,9.09
+119,5,"saltando para lanzar o defender","no",11,100.0
+120,5,"tropiezo en el mismo nivel","no",10,90.91
+121,5,"tropiezo en el mismo nivel","si",51,9.09
+122,5,"colision con objeto fijo","no",11,100.0
+123,5,"golpeado por otro jugador","si",3,27.27
+124,5,"abarasion/raspon","no",11,100.0
+125,5,"ampolla","no",11,100.0
+126,5,"condicion medica no especificada","no",11,100.0
+127,5,"conmocion/constusion cerebral","no",11,100.0
+128,5,"contusion/hematomas","no",7,63.64
+129,5,"contusion/hematomas","si",4,36.36
+130,5,"esguince/desgarro ligamento","no",9,81.82
+131,5,"esguince/desgarro ligamento","si",2,18.18
+132,5,"fractura (confirmado o sospecha)","no",11,100.0
+133,5,"herida abierta/laceracion/corte","no",11,100.0
+134,5,"inflamacion","no",9,81.82
+135,5,"inflamacion","si",2,18.18
+136,5,"lesion por sobreuso musculo o tendon","no",11,100.0
+137,5,"luxacion/subluxacion","no",11,100.0
+138,5,"perdida de conciencia","no",11,100.0
+139,5,"tiron/degarro muscular","no",10,90.91
+140,5,"tiron/degarro muscular","si",1,9.09
+141,5,"trastorno cardiaco","no",11,100.0
+143,5,"golpeado por otro jugador","no",8,72.73
+144,5,"colision con otro jugador/arbitro","no",11,100.0
+145,5,"golpeado por la bola o un objeto","no",11,100.0
+146,5,"trastorno respiratotio","no",11,100.0
+147,5,"ferula","no",10,90.91
+148,5,"ferula","si",1,9.09
+149,5,"infiltracion","no",11,100.0
+150,6,"golpe de calor","no",18,100.0
+151,6,"resbalon/tropiezo","no",17,94.44
+152,6,"resbalon/tropiezo","si",1,5.56
+153,6,"sobre uso","no",14,77.78
+154,6,"sobre uso","si",4,22.22
+155,6,"esfuerzo excesivo","no",16,88.89
+156,6,"esfuerzo excesivo","si",2,11.11
+157,6,"caida desde gran altura/aterrizaje torpe","no",15,83.33
+158,6,"caida desde gran altura/aterrizaje torpe","si",3,16.67
+159,6,"saltando para lanzar o defender","no",17,94.44
+160,6,"saltando para lanzar o defender","si",1,5.56
+161,6,"tropiezo en el mismo nivel","no",16,88.89
+162,6,"tropiezo en el mismo nivel","si",2,11.11
+163,6,"colision con objeto fijo","no",18,100.0
+164,6,"colision con otro jugador/arbitro","no",18,100.0
+165,6,"golpeado por la bola o un objeto","no",17,94.44
+166,6,"golpeado por la bola o un objeto","si",1,5.56
+168,6,"golpeado por otro jugador","si",3,16.67
+169,6,"abarasion/raspon","no",17,94.44
+170,6,"abarasion/raspon","si",1,5.56
+171,6,"ampolla","no",17,94.44
+172,6,"ampolla","si",1,5.56
+173,6,"condicion medica no especificada","no",18,100.0
+174,6,"conmocion/constusion cerebral","no",18,100.0
+175,6,"contusion/hematomas","no",12,66.67
+176,6,"contusion/hematomas","si",6,33.33
+177,6,"esguince/desgarro ligamento","no",16,88.89
+178,6,"esguince/desgarro ligamento","si",2,11.11
+179,6,"fractura (confirmado o sospecha)","no",18,100.0
+180,6,"herida abierta/laceracion/corte","no",18,100.0
+181,6,"inflamacion","no",17,94.44
+182,6,"inflamacion","si",1,5.56
+183,6,"lesion por sobreuso musculo o tendon","no",15,83.33
+184,6,"luxacion/subluxacion","no",17,94.44
+185,6,"luxacion/subluxacion","si",1,5.56
+186,6,"perdida de conciencia","no",18,100.0
+187,6,"tiron/degarro muscular","no",18,100.0
+188,6,"trastorno cardiaco","no",18,100.0
+189,6,"trastorno respiratotio","no",18,100.0
+190,6,"ferula","no",16,88.89
+191,6,"ferula","si",2,11.11
+192,6,"infiltracion","no",18,100.0
+193,6,"lesion por sobreuso musculo o tendon","si",3,16.67
+194,3,"golpe de calor","no",28,100.0
+195,3,"rebasbalon/tropiezo","no",28,100.0
+196,3,"sobre uso","no",23,82.14
+197,3,"sobre uso","si",5,17.86
+198,3,"esfuerzo excesivo","no",26,92.86
+199,3,"esfuerzo excesivo","si",2,7.14
+200,3,"caida desde gran altura/aterrizaje torpe","no",26,92.86
+201,3,"caida desde gran altura/aterrizaje torpe","si",2,7.14
+202,3,"saltando para lanzar o defender","no",28,100.0
+203,3,"tropiezo en el mismo nivel","no",28,100.0
+204,3,"colision con objeto fijo","no",28,100.0
+205,3,"colision con otro jugador/arbitro","no",28,100.0
+206,3,"golpeado por la bola o un objeto","no",28,100.0
+207,3,"golpeado por otro jugador","no",22,78.57
+208,3,"golpeado por otro jugador","si",6,21.43
+209,3,"abarasion/raspon","no",28,100.0
+210,3,"ampolla","no",28,100.0
+211,3,"condicion medica no especificada","no",28,100.0
+212,3,"conmocion/constusion cerebral","no",28,100.0
+213,3,"contusion/hematomas","no",25,89.29
+214,3,"contusion/hematomas","si",3,10.71
+215,3,"esguince/desgarro ligamento","no",26,92.86
+216,3,"esguince/desgarro ligamento","si",2,7.14
+217,3,"fractura (confirmado o sospecha)","no",27,92.86
+218,3,"fractura (confirmado o sospecha)","si",1,3.57
+219,3,"herida abierta/laceracion/corte","no",27,96.43
+220,3,"herida abierta/laceracion/corte","si",1,3.57
+221,3,"inflamacion","no",26,95.81
+222,3,"inflamacion","si",2,7.14
+223,3,"lesion por sobreuso musculo o tendon","no",26,92.86
+224,3,"lesion por sobreuso musculo o tendon","si",2,7.14
+225,3,"luxacion/subluxacion","no",27,96.43
+226,3,"luxacion/subluxacion","si",1,3.57
+227,3,"perdida de conciencia","no",28,100.0
+228,3,"tiron/degarro muscular","no",27,96.43
+229,3,"tiron/degarro muscular","si",1,3.57
+230,3,"trastorno cardiaco","no",28,100.0
+231,3,"trastorno respiratotio","no",28,100.0
+232,3,"ferula","no",28,100.0
+233,3,"infiltracion","no",28,100.0
+234,7,"golpe de calor","no",45,95.74
+235,7,"golpe de calor","si",2,4.26
+236,7,"rebasbalon/tropiezo","no",42,89.36
+237,7,"rebasbalon/tropiezo","si",5,10.64
+238,7,"sobre uso","no",33,70.21
+239,7,"sobre uso","si",5,29.79
+240,7,"esfuerzo excesivo","no",44,93.62
+241,7,"esfuerzo excesivo","si",3,6.38
+242,7,"caida desde gran altura/aterrizaje torpe","no",42,89.36
+243,7,"caida desde gran altura/aterrizaje torpe","si",5,10.64
+244,7,"saltando para lanzar o defender","no",42,89.36
+245,7,"saltando para lanzar o defender","si",5,10.64
+246,7,"tropiezo en el mismo nivel","no",46,97.87
+247,7,"tropiezo en el mismo nivel","no",1,2.13
+248,7,"colision con objeto fijo","no",47,100.0
+249,7,"colision con otro jugador/arbitro","no",45,95.74
+250,7,"colision con otro jugador/arbitro","si",2,4.26
+251,7,"golpeado por la bola o un objeto","no",46,97.87
+252,7,"golpeado por la bola o un objeto","si",1,2.13
+253,7,"golpeado por otro jugador","no",42,89.36
+254,7,"golpeado por otro jugador","si",5,10.64
+255,7,"abarasion/raspon","no",46,97.87
+256,7,"abarasion/raspon","si",2,2.13
+257,7,"ampolla","no",47,100.0
+258,7,"condicion medica no especificada","no",47,100.0
+259,7,"conmocion/constusion cerebral","no",47,100.0
+260,7,"contusion/hematomas","no",40,85.11
+261,7,"contusion/hematomas","si",7,14.89
+262,7,"esguince/desgarro ligamento","no",40,85.11
+263,7,"esguince/desgarro ligamento","si",2,14.89
+264,7,"fractura (confirmado o sospecha)","no",46,97.87
+265,7,"fractura (confirmado o sospecha)","si",1,2.13
+266,7,"herida abierta/laceracion/corte","no",27,96.43
+267,7,"herida abierta/laceracion/corte","si",1,3.57
+268,7,"inflamacion","no",39,82.98
+269,7,"inflamacion","si",8,17.02
+270,7,"lesion por sobreuso musculo o tendon","no",41,87.23
+271,7,"lesion por sobreuso musculo o tendon","si",6,12.77
+272,7,"luxacion/subluxacion","no",47,100.0
+273,7,"perdida de conciencia","no",47,100.0
+274,7,"tiron/degarro muscular","no",43,91.49
+275,7,"tiron/degarro muscular","si",4,8.51
+276,7,"trastorno cardiaco","no",47,100.0
+277,7,"trastorno respiratotio","no",47,100.0
+278,7,"ferula","no",46,97.87
+279,7,"ferula","si",1,2.13
+280,7,"infiltracion","no",47,100.0

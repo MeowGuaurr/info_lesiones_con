@@ -1,0 +1,72 @@
+1,1,"alimentos","no",7,100.0
+2,1,"ambiental","no",7,100.0
+3,1,"inducida por ejercicio","no",7,100.0
+4,1,"infeccion","no",7,100.0
+5,1,"otra causa","no",7,100.0
+6,1,"preexistente","no",7,100.0
+7,1,"reaccion a medicamentos","no",7,100.0
+8,2,"alimentos","no",36,94.74
+9,2,"alimentos","si",2,5.26
+10,2,"ambiental","no",38,100.0
+11,2,"inducida por ejercicio","no",32,84.21
+12,2,"inducida por ejercicio","si",6,15.79
+13,2,"infeccion","no",36,94.74
+14,2,"infeccion","si",2,5.26
+15,2,"otra causa","no",38,100.0
+16,2,"preexistente","no",37,97.37
+17,2,"preexistente","si",1,2.63
+18,2,"reaccion a medicamentos","no",38,100.0
+19,3,"alimentos","no",27,96.43
+20,3,"alimentos","si",1,3.57
+21,3,"ambiental","no",27,96.43
+22,3,"ambiental","si",1,3.57
+23,3,"inducida por ejercicio","no",27,96.43
+24,3,"inducida por ejercicio","si",1,3.57
+25,3,"infeccion","no",25,89.29
+26,3,"infeccion","si",3,10.71
+27,3,"otra causa","no",28,100.0
+28,3,"preexistente","no",24,85.71
+29,3,"preexistente","si",4,14.29
+30,3,"reaccion a medicamentos","no",28,100.0
+31,4,"alimentos","no",165,98.8
+32,4,"alimentos","si",2,1.2
+33,4,"ambiental","no",165,98.8
+34,4,"ambiental","si",2,1.2
+35,4,"inducida por ejercicio","no",157,94.01
+36,4,"inducida por ejercicio","si",10,5.99
+37,4,"infeccion","no",155,92.81
+38,4,"infeccion","si",12,7.19
+39,4,"otra causa","no",164,98.2
+40,4,"otra causa","si",3,1.8
+41,4,"preexistente","no",159,95.21
+42,4,"preexistente","si",8,4.79
+43,4,"reaccion a medicamentos","no",167,100.0
+44,5,"alimentos","no",11,100.0
+45,5,"ambiental","no",11,100.0
+46,5,"inducida por ejercio","no",11,100.0
+47,5,"infeccion","no",9,81.82
+48,5,"infeccion","si
+",2,18.18
+49,5,"preexistente","no",11,100.0
+50,5,"reaccion a medicamentos","no",11,100.0
+51,5,"otra causa","no",11,100.0
+52,6,"alimentos","no",17,94.44
+53,6,"alimentos","si",1,5.56
+54,6,"ambiental","no",18,100.0
+55,6,"inducida por ejercicio","no",16,88.89
+56,6,"inducida por ejercicio","si",2,11.11
+57,6,"infeccion","no",18,100.0
+58,6,"otra causa","no",18,100.0
+59,6,"preexistente","no",18,100.0
+60,6,"reaccion a medicamentos","no",18,100.0
+61,7,"ambiental","no",46,97.87
+62,7,"ambiental","si",1,2.13
+63,7,"alimentos","no",47,100.0
+64,7,"inducida por ejercicio","no",45,95.74
+65,7,"inducida por ejercicio","si",2,4.26
+66,7,"infeccion","no",47,100.0
+67,7,"otra causa","no",45,95.74
+68,7,"otra causa","si",2,4.26
+69,7,"preexistente","no",46,97.87
+70,7,"preexistente","si",1,2.13
+71,7,"reaccion a medicamentos","no",47,100.0

@@ -1,0 +1,25 @@
+1,1,"retorno inmediato sin restricciones de actividad",7,100.0
+2,2,"capaz de retornar con restriccion",4,15.38
+3,2,"incapaz de volver en el momento",1,3.85
+4,2,"referido para una asistencia adicional antes de retornar a la actividad",2,7.69
+5,2,"retorno inmediato sin restricciones de actividad",19,73.08
+6,4,"capaz de retornar con restriccion",19,14.18
+7,4,"capaz de retornar, pero el jugador decide que no",1,0.75
+8,4,"incapaz de volver en el momento",6,4.48
+9,4,"referido para una asistencia adicional antes de retornar a la actividad",17,12.69
+10,4,"retorno inmediato sin restricciones de actividad",91,67.91
+11,5,"capaz de retornar con restriccion",1,11.11
+12,5,"incapaz de volver en el momento",1,11.11
+13,5,"referido para una asistencia adicional antes de retornar a la actividad",4,44.44
+14,5,"retorno inmediato sin restricciones de actividad",3,33.33
+15,6,"capaz de retornar con restriccion",2,12.5
+16,6,"incapaz de volver en el momento",2,12.5
+17,6,"referido para una asistencia adicional antes de retornar a la actividad",3,18.75
+18,6,"retorno inmediato sin restricciones de actividad",9,56.25
+19,3,"capaz de retornar con restriccion",2,10.53
+20,3,"referido para una asistencia adicional antes de retornar a la actividad",7,36.84
+21,3,"retorno inmediato sin restricciones de actividad",10,52.63
+22,7,"capaz de retornar con restriccion",3,7.14
+23,7,"incapaz de volver en el momento",7,23.81
+24,7,"referido para una asistencia adicional antes de retornar a la actividad",3,7.14
+25,7,"retorno inmediato sin restricciones de actividad",29,69.05
