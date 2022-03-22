@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap');
+
+*{
+    font-family: 'Roboto Serif', serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0,7), rgba(0,0,0,0,7)),url(images/png-transparent-olympic-games-verite-2016-summer-olympics-2022-winter-olympics-ring-text-olympic-games-thumbnail.png);
+    background-position: center;
+    background-size: cover;
+}
