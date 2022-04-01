@@ -1,41 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="./static/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+{% extends "layout.html" %}
 
-    <title>Inicio</title>
-</head>
-<body>
-    <div class="container">
-        <div class="navbar">
-            <img src="/static/images/Olympics-Logo.png" class="logo">
-            <nav>
-                <ul>
-                    <li class="nav-text"><a href="">HOME</a></li>
-                    <li class="nav-text"><a href="">COUNTRY</a></li>
-                    <li class="nav-text"><a href="">SEARCH</a></li>
-                </ul>
-            </nav>
-            <img src="/static/images/menu_icon.png" class="menu-icon">
-        </div>
+{% block title %}
+    Inicio
+{% endblock %}
+
+{% block main %}
+<div class="col">
+    <h1>Something</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Maiores excepturi incidunt minima laboriosam, at asperiores 
+            veniam quod sunt explicabo voluptatibus, ipsam recusandae
+            dolor labore dolores nisi culpa aspernatur tempore debitis.
+        </p>
+
+        <button class="info-button" type="button">Ver más</button>
+</div>
+<tbody>
+    <!--{% for pais in pais %}
+    <tr>
+        <td>{{pais.nombre}}</td>
+    </tr>
+    {% endfor %}    -->   
+</tbody> 
+
+<div class="col" style="margin-left: 11px;" >
+{% for pais in pais %}   
+    {% if pais.id_pais == 1 %}
+    <div class="card card-1">
+        <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>
+    </div>  
+    {% endif %}    
+    
+    {% if pais.id_pais == 2 %}
+    <div class="card card-2">
+        <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
+    </div>  
+    {% endif %} 
+
+    {% if pais.id_pais == 3 %}
+    <div class="card card-3">
+        <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
+    </div>  
+    {% endif %} 
+
+    {% if pais.id_pais == 5 %}
+    <div class="card card-4">
+        <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
+    </div>  
+    {% endif %} 
+
+    {% if pais.id_pais == 6 %}
+    <div class="card card-5">
+        <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
+    </div>  
+    {% endif %} 
+
+    {% if pais.id_pais == 7 %}
+    <div class="card card-6">
+        <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
+    </div>  
+    {% endif %} 
+{% endfor %} 
+
+<!--
+    <div class="card card-2">
     </div>
-    <div class="row">
-        <div class="col">
-            <h1>Soemthing</h1>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Maiores excepturi incidunt minima laboriosam, at asperiores 
-                veniam quod sunt explicabo voluptatibus, ipsam recusandae
-                dolor labore dolores nisi culpa aspernatur tempore debitis.
-            </p>
-        </div>
-        <div class="col"></div>
+
+    <div class="card card-3">
     </div>
+
+    <div class="card card-4">
+    </div>
+
+    <div class="card card-5">   
+    </div>
+
+    <div class="card card-6">   
+    </div> -->
+</div>
+
+{% endblock %}
+
+    
     <!--
     
     
