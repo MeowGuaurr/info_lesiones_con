@@ -47,7 +47,7 @@ def main():
 
     reader_3 = csv.reader(file_3)
     for id, pais, nombre, afectado, porcentaje, total in reader_3:
-        db.execute("INSERT INTO extremidad_superior ( id, pais, nombre, afectado, porcentaje, total) VALUES (:id, :pais, :nombre, :afectado, :porcentaje, :total)",
+        db.execute("INSERT INTO extremidad_inferior ( id, pais, nombre, afectado, porcentaje, total) VALUES (:id, :pais, :nombre, :afectado, :porcentaje, :total)",
                 {"id":id, "pais":pais, "nombre":nombre, "afectado":afectado, "porcentaje":porcentaje, "total":total})
         print(
             f"Added in extremidad superior table id:{id}, pais:{pais}, nombre:{nombre}")

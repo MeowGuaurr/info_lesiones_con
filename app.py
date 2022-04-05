@@ -48,11 +48,38 @@ def info(id_pais):
         result = rows.fetchall()
         print(result)
 
+        extremidad_sup = db.execute("SELECT id, id_pais, nombre, afectado, porcentaje, total FROM extremidad_superior WHERE id_pais = :id_pais",
+                {"id_pais": id_pais})
+        result_esup = extremidad_sup.fetchall()
+        print(result_esup)
+
+        extremidad_inf = db.execute("SELECT id, id_pais, nombre, afectado, porcentaje, total FROM extremidad_superior WHERE id_pais = :id_pais",
+                {"id_pais": id_pais})
+        result_einf = extremidad_inf.fetchall()
+        print(result_einf)
+
+        recomendacion = db.execute("SELECT recomendacion_id, id_pais, recomendacion, total, porcentaje FROM recomendaciones WHERE id_pais = :id_pais",
+                {"id_pais": id_pais})
+        result_rec = recomendacion.fetchall()
+        print(result_rec)
+
+        referencia = db.execute("SELECT id_referencia, id_pais, referencia, total, porcentaje FROM referencia WHERE id_pais = :id_pais",
+                {"id_pais": id_pais})
+        result_ref = referencia.fetchall()
+        print(result_ref)
+
+        evaluacion = db.execute("SELECT id_evaluacion, id_pais, evaluacion, total, porcentaje FROM evaluacion WHERE id_pais = :id_pais",
+                {"id_pais": id_pais})
+        result_ev = evaluacion.fetchall()
+        print(result_ev)
+
         if len(result) == 0:
             flash("could not find country")
             return render_template("info.html")
          
-        return render_template("info.html", nombre = result)
+        return render_template("info.html", nombre = result, e_sup = result_esup, e_inf = result_einf,
+                                            recomendaciones = result_rec, referencias = result_ref,
+                                            evaluaciones = result_ev)
 
     else:
         return render_template("index.html")

@@ -6,6 +6,7 @@
 {% endblock %}
 
 {% block main %}
+
 <div class="col">
     <h1>Something</h1>
         <p>
@@ -17,98 +18,48 @@
 
         <button class="info-button" type="button">Ver más</button>
 </div>
-<tbody>
-    <!--{% for pais in pais %}
-    <tr>
-        <td>{{pais.nombre}}</td>
-    </tr>
-    {% endfor %}    -->   
-</tbody> 
 
 <div class="col" style="margin-left: 11px;" >
 {% for pais in pais %}   
     {% if pais.id_pais == 1 %}
-    <div class="card card-1">
+    <div class="card-index card-1">
         <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>
     </div>  
     {% endif %}    
     
     {% if pais.id_pais == 2 %}
-    <div class="card card-2">
+    <div class="card-index card-2">
         <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
     </div>  
     {% endif %} 
 
     {% if pais.id_pais == 3 %}
-    <div class="card card-3">
+    <div class="card-index card-3">
         <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
     </div>  
     {% endif %} 
 
     {% if pais.id_pais == 5 %}
-    <div class="card card-4">
+    <div class="card-index card-4">
         <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
     </div>  
     {% endif %} 
 
     {% if pais.id_pais == 6 %}
-    <div class="card card-5">
+    <div class="card-index card-5">
         <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
     </div>  
     {% endif %} 
 
     {% if pais.id_pais == 7 %}
-    <div class="card card-6">
+    <div class="card-index card-6">
         <a href="/info/{{pais['id_pais']}}">{{pais.nombre}}</a>   
     </div>  
     {% endif %} 
 {% endfor %} 
-
-<!--
-    <div class="card card-2">
-    </div>
-
-    <div class="card card-3">
-    </div>
-
-    <div class="card card-4">
-    </div>
-
-    <div class="card card-5">   
-    </div>
-
-    <div class="card card-6">   
-    </div> -->
 </div>
 
 {% endblock %}
 
-    
-    <!--
-    
-    
-    this is index, a brief description of the commite and options to search
-    try searching something:
-    <form class="form-inline" action="/" method="POST">
-        <input class="form-control mr-sm-2 box" type="search" placeholder="nombre" aria-label="nombre" name="nombre">
-        <button class="button_form1 my-2 my-sm-0" type="submit">Search</button>
-    </form>
-
-    <table class = "table">
-        <thead>
-          <tr>
-            <th>id</th>
-            <th>nombre</th>
-          </tr>
-        </thead>
-        <tbody>
-            {% for nombre in nombre %}
-                <tr>
-                    <td>{{nombre.id_pais}}</td>
-                    <td>{{nombre.nombre}}</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-      </table> -->
 </body>
 </html>
