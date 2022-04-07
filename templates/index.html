@@ -15,8 +15,10 @@
             veniam quod sunt explicabo voluptatibus, ipsam recusandae
             dolor labore dolores nisi culpa aspernatur tempore debitis.
         </p>
-
-        <button class="info-button" type="button">Ver más</button>
+        
+        {% for nica in nica %}   
+        <button class="info-button nica" type="button"><a href="/info/{{nica['id_pais']}}">{{nica.nombre}}</a></button>
+        {% endfor %}
 </div>
 
 <div class="col" style="margin-left: 11px;" >

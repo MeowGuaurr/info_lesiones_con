@@ -62,11 +62,11 @@ def main():
         db.commit()
     
     reader_5 = csv.reader(file_5)
-    for id_referencia, pais, referencia, total, porcentaje in reader_4:
-        db.execute("INSERT INTO referencia ( id_referencia, pais, referencia, total, porcentaje) VALUES (:id_referencia, :pais, :referencia, :total, :porcentaje)",
-                {"id_referencia":  id_referencia, "pais":pais, "referencia":referencia, "total":total, "porcentaje":porcentaje})
+    for id_referencia, id_pais, referencia, total, porcentaje in reader_5:
+        db.execute("INSERT INTO referencia ( id_referencia, id_pais, referencia, total, porcentaje) VALUES (:id_referencia, :id_pais, :referencia, :total, :porcentaje)",
+                {"id_referencia":  id_referencia, "id_pais":id_pais, "referencia":referencia, "total":total, "porcentaje":porcentaje})
         print(
-            f"Added in referencia table  id_referencia:{id_referencia}, pais:{pais}, referencia:{referencia}")
+            f"Added in referencia table  id_referencia:{id_referencia}, pais:{id_pais}, referencia:{referencia}")
         db.commit()
 
     reader_6 = csv.reader(file_6)
