@@ -15,8 +15,13 @@
     <div class="container-cont background-info">
         <div class="navbar">
             <a href=" ">
-                <img src="/static/images/Olympics-Logo.png" class="logo">
-            </a>
+              <img src="/static/images/Olympics-Logo.png" class="logo">
+          </a>
+          <div class = "nav">
+              <ul>
+                  <li><a href="{{url_for('index')}}" style="color: black !important;;">Inicio</a> </li>
+              </ul>
+          </div>
         </div>
 
         <div>
@@ -34,16 +39,16 @@
             </button>
           </p>
           <div class="card card-body">
-            Something
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Maiores excepturi incidunt minima laboriosam, at asperiores 
-              veniam quod sunt explicabo voluptatibus, ipsam recusandae
-              dolor labore dolores nisi culpa aspernatur tempore debitis.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Maiores excepturi incidunt minima laboriosam, at asperiores 
-              veniam quod sunt explicabo voluptatibus, ipsam recusandae
-              dolor labore dolores nisi culpa aspernatur tempore debitis.
-            
+            En esta seccion podras ver tablas correspondientes a las estadisticas
+            de:
+            <ol>
+              <li>Lesiones por sección(cabeza y tronco, extremidades superiores e inferiores) </li>
+              <li>Mecanismo de lesiones (tipos de lesiones observadas, evaluacion sobre leiones, tratamientos
+                usados para tratarlas, referencias del medico, especialista o hospital) y recomendaciones 
+                sobre las lesiones observadas.</li>
+              <li>Enfermedades presentadas, principales síntomas y causas de las enfermedades</li>
+            </ol> 
+        
           </div>
           <!-- here begins section for lesion, collapse button for lesiones-->
           <div class="collapse multi-collapse" id="Lesion">

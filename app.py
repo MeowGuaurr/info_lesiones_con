@@ -53,8 +53,9 @@ def info(id_pais):
         extremidad_sup = db.execute("SELECT id, id_pais, nombre, afectado, porcentaje, total FROM extremidad_superior WHERE id_pais = :id_pais",
                 {"id_pais": id_pais})
         result_esup = extremidad_sup.fetchall()
+        print(result_esup)
 
-        extremidad_inf = db.execute("SELECT id, id_pais, nombre, afectado, porcentaje, total FROM extremidad_superior WHERE id_pais = :id_pais",
+        extremidad_inf = db.execute("SELECT id, id_pais, nombre, afectado, porcentaje, total FROM extremidad_inferior WHERE id_pais = :id_pais",
                 {"id_pais": id_pais})
         result_einf = extremidad_inf.fetchall()
 

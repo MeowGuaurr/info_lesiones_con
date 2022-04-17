@@ -73,6 +73,10 @@ h1{
     margin-bottom: 15px;
 }
 
+h5{
+    margin-top: 30px!important;
+}
+
 .info-button{
     width: 180px;
     color: #000;
@@ -108,14 +112,22 @@ nav{
     margin-top: 5px;
 }
 
-nav ul li{
-    text-decoration: none !important;
+.nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 45px;
-    color: white !important;
-    
 }
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.nav{
+    flex-basis: -moz-available;
+    display: flex;
+    flex-direction: row-reverse;
+ }
 
 .nic{
     color: #3499;
@@ -123,7 +135,7 @@ nav ul li{
 
 p{
     color: #fff;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 15px;
 }
 
@@ -134,4 +146,6 @@ p{
     margin-top: -15px;
 }
 
-
+.table{
+    margin-top: 5px;
+}
