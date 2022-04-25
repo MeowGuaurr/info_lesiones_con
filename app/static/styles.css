@@ -32,6 +32,14 @@
       margin: 10px 65px;
     }
   }
+    
+@media screen and (min-width: 1023px) {
+    .card-index {
+      width: 140px;
+      height: 130px;
+      margin: 10px 65px;
+    }
+  }
   @media screen and (min-width: 768px) {
     .card-index {
       width: 165px;
@@ -40,7 +48,7 @@
     }
   }
 
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 375px) and (max-width: 768){
     .card-index {
       margin: 10px 32px;
     }
@@ -113,7 +121,7 @@
 }
 
 .container-cont{
-    width: 100%;
+    width: 102%;
     height: 97vh;
     background-position: center;
     background-size: cover;
@@ -122,21 +130,21 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1023px) and (max-width: 1080){
     .container-cont{
         width: 110%;
         height: 120vh;
     }
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 767px) and (max-width: 1022){
     .container-cont{
         width: 141%;
         height: 140vh;
     }
   }
 
-  @media screen and (min-width: 374px) {
+  @media screen and (min-width: 360px) and (max-width: 766px) {
     .container-cont{
         width: 283%;
         height: 281vh;
@@ -206,7 +214,7 @@ p{
     line-height: 15px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 360px) {
     p{
         font-size: 23px;
         line-height: 34px;
@@ -218,6 +226,12 @@ p{
     height: 75%;
     align-items: center;
     margin-top: -15px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 766px){
+    .row{
+        height: 40%!important;
+    }
 }
 
 .table{
