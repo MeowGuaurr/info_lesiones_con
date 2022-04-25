@@ -121,7 +121,7 @@
 }
 
 .container-cont{
-    width: 102%;
+    width: 104%;
     height: 97vh;
     background-position: center;
     background-size: cover;
@@ -137,10 +137,17 @@
     }
   }
 
-  @media screen and (min-width: 767px) and (max-width: 1022){
+  @media screen and (min-width: 768px) and (max-width: 1022){
     .container-cont{
         width: 141%;
         height: 140vh;
+    }
+  }
+
+  @media screen and (min-width: 766px) and (max-width: 768px) {
+    .container-cont{
+        width: 104%;
+        height: 97vh;
     }
   }
 
